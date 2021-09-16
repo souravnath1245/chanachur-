@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My chanachur website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .inputHeadline{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="accountSection">
+        <div class="container my-4">
+            <div class="row justify-content-around align-item-center">
+                <div id="inputSection" class="inputSection col-lg-7 bg-secondary p-4">
+                    
+                  
+                  
+                  <button href="" onclick="handleSubmit()" class=" text-uppercase btn btn-danger">submit</button>
+                </div>
+                <div class="outputSection col-lg-4 bg-info">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th colspan="2">Items</th>
+                            <th scope="col"></th>
+                            <th scope="col">Money</th>
+                          </tr>
+                        </thead>
+                        <tbody id='tableBody'>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td colspan="2">Chanachur</td>
+                            <td></td>
+                            <td> $ <span id="chanachurPrice">00</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td colspan="2">Anguli</td>
+                            <td></td>
+                            <td>$ <span id="angulaiPrice">00</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Nimkey</td>
+                            <td></td>
+                            <td>$  <span id="nimkeyPrice">00</span></td>
+                          </tr>
+                          <tr>
+                              <th colspan="2">
+                                  Total Amount
+                              </th>
+                              <td ></td>
+                              <td></td>
+                              <td>$ <span id="totalPrice">00</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="account.js"></script>
+</body>
+</html>
